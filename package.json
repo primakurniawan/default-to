@@ -1,0 +1,29 @@
+{
+  "name": "default-value-to",
+  "version": "1.0.0",
+  "description": "A tiny TypeScript utility to safely provide default values for optional chaining.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "utility",
+    "optional-chaining",
+    "default",
+    "null-safe"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
